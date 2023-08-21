@@ -20,4 +20,9 @@ if num == sum:
 else:
    print(num,"is not an Armstrong number")
 
+
 print("456")
+   
+print("123")
+
+
