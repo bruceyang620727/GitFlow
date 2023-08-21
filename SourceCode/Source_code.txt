@@ -1,13 +1,21 @@
-code by bruce
-print("Hello World")
 
-plt.figure(figsize = [7,6])
-plt.scatter(x, y, marker='x', s=0.1)
-plt.title('Y vs X --> for line to be fit')
-plt.xlabel('X'); plt.ylabel('Y')
-plt.legend( ['y = ' + str(a) + 'x + ' + str(b) +' + noise'])
+# Python program to check if the number is an Armstrong number or not
 
-code by Joe
-import numpy as np
-print("Hello World")
+# take input from the user
+num = int(input("Enter a number: "))
 
+# initialize sum
+sum = 0
+
+# find the sum of the cube of each digit
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
+
+# display the result
+if num == sum:
+   print(num,"is an Armstrong number")
+else:
+   print(num,"is not an Armstrong number")
