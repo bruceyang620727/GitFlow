@@ -1,1 +1,7 @@
 print("Hello World")
+
+plt.figure(figsize = [7,6])
+plt.scatter(x, y, marker='x', s=0.1)
+plt.title('Y vs X --> for line to be fit')
+plt.xlabel('X'); plt.ylabel('Y')
+plt.legend( ['y = ' + str(a) + 'x + ' + str(b) +' + noise'])
