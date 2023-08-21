@@ -1,3 +1,4 @@
+code by bruce
 print("Hello World")
 
 plt.figure(figsize = [7,6])
@@ -5,3 +6,8 @@ plt.scatter(x, y, marker='x', s=0.1)
 plt.title('Y vs X --> for line to be fit')
 plt.xlabel('X'); plt.ylabel('Y')
 plt.legend( ['y = ' + str(a) + 'x + ' + str(b) +' + noise'])
+
+code by Joe
+import numpy as np
+print("Hello World")
+>>>>>>> ef2779fe2b7400955a7a4594149d20cd339f053d
