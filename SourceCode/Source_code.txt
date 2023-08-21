@@ -10,4 +10,4 @@ plt.legend( ['y = ' + str(a) + 'x + ' + str(b) +' + noise'])
 code by Joe
 import numpy as np
 print("Hello World")
->>>>>>> ef2779fe2b7400955a7a4594149d20cd339f053d
+
