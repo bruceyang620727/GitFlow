@@ -1,0 +1,13 @@
+# Some tricky matrix manipulations in this cell. The main goal is to visualize the loss function for all values of a and b.
+a_explore_range = 20
+a_explore_step = 0.1
+
+# Since b has less impact on loss function, moving to larger values
+b_explore_range = 200
+b_explore_step = 1
+
+# We can chnage above values to see how the parameters impact the model
+
+# Get full ranges of a and b
+a_est_range = np.arange(a - a_explore_range, a + a_explore_range, a_explore_step) #(400,) / -18~22
+b_est_range = np.arange(b - b_explore_range, b + b_explore_range, b_explore_step) #(400,) / -175~225
